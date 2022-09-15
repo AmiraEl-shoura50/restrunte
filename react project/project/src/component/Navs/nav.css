@@ -1,0 +1,35 @@
+nav{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 0%;
+    /* background: rgb(255, 255, 255); */
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 8px;
+}
+nav a{
+    color: rgb(168, 45, 73) !important;
+    padding: 40px 12px 35px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav .logo{
+  max-width: 80%;
+   
+}
+#num{
+ border: 3px solid rgb(168, 45, 73);
+ background-color: rgb(168, 45, 73);
+ color: white !important;
+ box-sizing: border-box;
+ width: 110px;
+}
+#num:hover{
+    background-color: white;
+    color: rgb(168, 45, 73) !important;
+    transition:.2s ease-in-out;
+    width: 115px;
+
+}
